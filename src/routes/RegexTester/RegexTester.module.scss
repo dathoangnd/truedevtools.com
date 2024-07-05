@@ -1,0 +1,42 @@
+@mixin fontMono {
+	font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+.regexInput {
+	:global(.ant-input-group-addon),
+	:global(input) {
+		@include fontMono();
+	}
+}
+
+.regexCascader {
+	:global(.ant-select-arrow) {
+		opacity: 1 !important;
+	}
+
+	:global(.ant-select-clear) {
+		display: none;
+	}
+
+	:global(.ant-select-selector) {
+		@apply bg-gray-50 #{!important};
+		@apply dark:bg-black #{!important};
+		@include fontMono();
+		
+		&::before {
+			content: '/';
+			display: inline-block;
+			margin-left: 8px;
+			margin-right: 2px;
+			@apply text-gray-500;
+		}
+	}
+}
+
+:global(.ant-cascader-menu-item) {
+	font-weight: normal !important;
+
+	b {
+		@apply font-bold;
+	}
+}

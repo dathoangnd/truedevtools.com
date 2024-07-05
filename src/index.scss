@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './assets/scss/reset.scss';
+@import './assets/scss/custom.scss';
+
+.ant-menu-item-group-title {
+	padding: 8px 0 !important;
+	margin: 16px 24px;
+	border-bottom-width: 1px;
+	text-transform: uppercase;
+	border-style: solid;
+	@apply border-b-gray-200;
+}
+
+.ant-form-item {
+	label {
+		font-size: 16px !important;
+	}
+}

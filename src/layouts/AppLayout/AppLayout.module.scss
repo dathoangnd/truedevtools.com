@@ -1,0 +1,15 @@
+.sidebar {
+	&:global(.ant-layout-sider-below:not(.ant-layout-sider-collapsed)) {
+		flex-basis: calc(100% - 50px) !important;
+		max-width: calc(100% - 50px) !important;
+
+		+ :global(.ant-layout-content) {
+			opacity: 0 !important;
+		}
+	}
+
+	+ :global(.ant-layout-content) {
+		opacity: 1 !important;
+		transition: opacity 0.1s;
+	}
+}

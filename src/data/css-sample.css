@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+p {
+	color: #333;
+	text-align: center;
+  line-height: 1.5;
+}
+
+.important {
+  font-weight: bold;
+  color: #900;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #0095ff;
+}
+
+#welcome-message {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#image-container {
+  text-align: center;
+  margin-top: 20px;
+}

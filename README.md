@@ -1,11 +1,9 @@
-![True Devtools logo](./logo.png)
+![True Devtools logo](./public/logo.png)
 
 
 [TrueDevtools.com](https://truedevtools.com) is a free collection of 45+ carefully crafted tools useful for development. Stop pasting your code on various random websites, True Devtools centralizes all your go-to utilities in one convenient location.
 
 The app is lightweight and run entirely on your client-side, ensures a seamless experience without compromising on security (no user data is stored). It also fully supports PWA, you can install it for offline usage.
-
-Since True Devtools is not fully open-source, this repository serves as a place for bug reports, feature requests, and general discussion.
 
 ---
 
